@@ -1,0 +1,7 @@
+{
+  "name": "japres-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
