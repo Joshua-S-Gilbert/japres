@@ -1,0 +1,32 @@
+<div id="simulator">
+
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Options {{id}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <h1>Writing Type:</h1>
+
+  <div>
+    <select class="form-select mb-3" id="exampleSelect1" ngDefaultControl name="type" [(ngModel)]="type">
+      <option value=0 selected="selected">Romaji</option>
+      <option value=1>Kana</option>
+      <option value=2>Hiragana</option>
+    </select>
+  </div>
+  <!--Below click func will take on ID to determine correct game route
+    e.g. if id = 1, then it will route to /game+id 
+                                          /game1 = speech frenzy
+                                          /game2 = magic trouble
+                                          /game3 = bubble match
+                                          /game4 = kana challenge
+  -->
+  <button (click)="startGame()">
+    Start
+  </button>
+</ion-content>
+
+</div>

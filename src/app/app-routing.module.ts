@@ -11,6 +11,14 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'e-match/:type',
+    loadChildren: () => import('./e-match/e-match.module').then( m => m.EMatchPageModule)
+  },
+  {
+    path: 'options/:id',
+    loadChildren: () => import('./options/options.module').then( m => m.OptionsPageModule)
+  },
 ];
 
 @NgModule({

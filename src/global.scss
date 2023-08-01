@@ -24,3 +24,12 @@
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
+#simulator {
+    align-self: center;
+    padding: 10px;
+    width: 1080px;
+    height: 1920px;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 3px solid darkgray;
+}

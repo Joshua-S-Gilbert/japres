@@ -1,20 +1,43 @@
-<ion-header [translucent]="true">
+
+<div id="simulator">
+
+
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+      <h1> Japres </h1>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+
 
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <!--ngFor example for displaying data
+    <div *ngFor="let d of japresData">
+        <p>{{d['question']}}</p>
+    </div>
+    -->
+    <h1>Japres Learning App</h1>
+    <div id="navLinks">
+      <button (click)="routeOptions(1)">
+        Game 1 (Speech Frenzy?)
+      </button>
+      <button>
+        Game 2 (Magic Trouble)
+      </button>
+      <button>
+        Game 3 (Bubble Match)
+      </button>
+      <button>
+        Game 4 (Kana Challenge)
+      </button>
+      <button>
+        Information
+      </button>
+    </div>
   </div>
+
 </ion-content>
+
+
+</div>

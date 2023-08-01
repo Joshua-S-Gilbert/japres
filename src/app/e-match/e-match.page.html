@@ -1,0 +1,18 @@
+<div id="simulator">
+
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>eMatch</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <h1>Testing Filter of Data</h1>
+  <em>(0 = Romaji, 1 = Kana, 2 = Hiragana) </em>
+    <div *ngFor="let d of japresData">
+      <p>{{d['question']}} type = {{d['type']}} </p>
+      <p> {{d['answer']}}</p>
+    </div>
+</ion-content>
+
+</div>
