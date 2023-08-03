@@ -9,10 +9,15 @@
 <ion-content [fullscreen]="true">
   <h1>Testing Filter of Data</h1>
   <em>(0 = Romaji, 1 = Kana, 2 = Hiragana) </em>
-    <div *ngFor="let d of japresData">
-      <p>{{d['question']}} type = {{d['type']}} </p>
-      <p> {{d['answer']}}</p>
+  <p> Japres Question: {{question}}</p>
+  <p> Japres Answer: {{rAns}}</p>
+    <div *ngFor="let d of answers">
+      
+      <p> {{d}}</p>
     </div>
+    <button class="btn" (click)="navOptions()">
+      NAV TO OPTIONS
+    </button>
 </ion-content>
 
 </div>

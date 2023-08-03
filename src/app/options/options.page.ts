@@ -21,6 +21,12 @@ export class OptionsPage implements OnInit {
 
   //route with type and send topics to session storage instead of routing
   startGame(){
+    if(this.type == undefined){
+      this.type = 0; 
+    }
     this.router.navigateByUrl('/e-match/'+this.type); 
+  }
+  navHome(){
+    this.router.navigateByUrl('/'); 
   }
 }
