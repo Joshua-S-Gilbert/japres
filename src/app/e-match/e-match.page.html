@@ -8,15 +8,17 @@
 
 <ion-content [fullscreen]="true">
   <h1>Testing Filter of Data</h1>
-  <em>(0 = Romaji, 1 = Kana, 2 = Hiragana) </em>
-  <p> Japres Question: {{question}}</p>
-  <p> Japres Answer: {{rAns}}</p>
+  <em>(0 = Romaji, 1 = Kana) </em>
+  <p> {{topic}}: What is '{{question}}'</p>
+  <p>Score: {{cCount}}/{{gameL}}</p>
+  <div (click)="newQuestion(1)" class="rAnswer"> {{rAns}}</div>
     <div *ngFor="let d of answers">
       
-      <p> {{d}}</p>
+      <div class="wAnswer" (click)="newQuestion(0)"> {{d}}</div>
     </div>
+   
     <button class="btn" (click)="navOptions()">
-      NAV TO OPTIONS
+      END GAME
     </button>
 </ion-content>
 

@@ -1,0 +1,25 @@
+<div id="simulator">
+
+  <ion-header [translucent]="true">
+    <ion-toolbar>
+      <ion-title>Japres</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content [fullscreen]="true">
+    <h1>Vocab Confusion</h1>
+    <em>(0 = Romaji, 1 = Kana) </em>
+    <p> {{topic}}: What is '{{question}}'</p>
+    <p>Score: {{cCount}}/{{gameL}}</p>
+    <div (click)="newQuestion(1)" class="rAnswer"> {{rAns}}</div>
+    <div *ngFor="let d of answers">
+
+      <div class="wAnswer" (click)="newQuestion(0)"> {{d}}</div>
+    </div>
+
+    <button class="btn" (click)="navOptions()">
+      END GAME
+    </button>
+  </ion-content>
+
+</div>

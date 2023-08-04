@@ -19,6 +19,14 @@ const routes: Routes = [
     path: 'options/:id',
     loadChildren: () => import('./options/options.module').then( m => m.OptionsPageModule)
   },
+  {
+    path: 'game-over',
+    loadChildren: () => import('./game-over/game-over.module').then( m => m.GameOverPageModule)
+  },
+  {
+    path: 'j-match/:type',
+    loadChildren: () => import('./j-match/j-match.module').then( m => m.JMatchPageModule)
+  },
 ];
 
 @NgModule({

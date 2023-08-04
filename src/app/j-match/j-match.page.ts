@@ -1,16 +1,14 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { Question } from '../interfaces/question';
 import { DataService } from '../services/data.service';
-import { Router } from '@angular/router';
+import { Data, Router } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'app-e-match',
-  templateUrl: './e-match.page.html',
-  styleUrls: ['./e-match.page.scss'],
+  selector: 'app-j-match',
+  templateUrl: './j-match.page.html',
+  styleUrls: ['./j-match.page.scss'],
 })
-
-export class EMatchPage implements OnInit {
+export class JMatchPage implements OnInit {
   type:any; 
 
   question: any; 
@@ -28,12 +26,10 @@ export class EMatchPage implements OnInit {
   
   qCount = 0;  
   cCount = 0; 
-  
-  constructor(private route: ActivatedRoute, public data: DataService, private router: Router) {
-    
-     
-   }
 
+  constructor(private router: Router, private data: DataService, private route: ActivatedRoute) { }
+
+  
   async ngOnInit() {
     this.type = this.route.snapshot.paramMap.get('type')!;
 
@@ -65,48 +61,61 @@ export class EMatchPage implements OnInit {
    
     
   }
-  //get four of the however many questions. 
-
-  //need two seperate objects to loop through, 
-  //one containing the correct answer and question
-  
-  //the other containing the three other incorrect answers 
+  //this is responsible for question generation
   makeQuestion2(arr: string[]){
      
     
-    
+    //loop through the data
     arr.forEach(e => {
+      //assign a type number
       let a = this.typeToNum(e[4])
+      //check that the type and the topic match
       if(a == this.type && e[3] == this.topic) {
+        //push into array which contains filtered objects
         this.filtered.push(e);
       }
     });
+    //creating a series of random numbers to use for random answer generation
+    //z will be used as a counter
     let z = 0;
    do {
-       
+       //create random number to be assigned to number series
         let p =  Math.floor(Math.random() * this.filtered.length);
+        //check it hasnt already been added to the series
         if(!(this.numSeries.find((element) => element == p))) {
           this.numSeries.push(p)
+          //increment 
           z++; 
         }
+        //loop will stop once it has been ran through either 15(short game) 
+        //or 40 (long game) times
     }while(z < this.gameL); 
-   
+    //index will increment with each call of this func
+    //qCount is a counter that increments each time this func runs
+    //the numseries is the random series of numbers
+    //ensures different order of questions each time
     let index = this.numSeries[this.qCount];
-    this.question = this.filtered[index][1]; 
-    this.rAns = this.filtered[index][2]; 
+    this.question = this.filtered[index][2]; 
+    this.rAns = this.filtered[index][1]; 
+    //remove previous answers
     this.answers = []; 
-
+    //loop 3 times as we need 3 answers
     for(let i = 0; i < 3; i++) {
-     
+      //random number
       let w = Math.floor(Math.random() * this.filtered.length);
-
+      //if it matches the current index then get another one
       if(w == index) {
         w = Math.floor(Math.random() * this.filtered.length);
       }
-
+      //does not check twice (can lead to duplication of answers)
+      //if the answer does not match the other answers and
+      //the question for the answer does not match the created question
+      //push the answer into the array
+       if(!this.answers.find((element) => element == this.filtered[w][1]) && this.filtered[w][2] != this.question) {
+            this.answers.push(this.filtered[w][1]);
+            
+          }
       
-
-      this.answers.push(this.filtered[w][2]); 
     }
     
   }
@@ -207,12 +216,12 @@ export class EMatchPage implements OnInit {
     this.qCount++; 
     if(result == 1) {
         this.cCount++
-        
     }
+    //need to call to gen new questions
     this.getData(); 
-   
+   //checks the question count against game length
     if(this.qCount == this.gameL) {
-      
+      //variable reset and nav to game-over
       sessionStorage.setItem('cCount', String(this.cCount)); 
       this.qCount = 0; 
       this.cCount = 0; 
@@ -220,5 +229,5 @@ export class EMatchPage implements OnInit {
     } 
     
   }
- 
+
 }

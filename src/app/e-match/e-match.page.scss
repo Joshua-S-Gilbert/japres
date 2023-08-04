@@ -4,3 +4,29 @@
     font-size: x-large;
     margin-top: 100px;
 }
+
+.wAnswer {
+    border:1px solid red; 
+    margin:20px; 
+    padding:20px; 
+    font-family: 'Comic Sans MS';
+    font-size:xx-large; 
+}
+.rAnswer {
+    border: 1px solid green;
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Comic Sans MS';
+    font-size: xx-large;
+}
+.rAnswer:active {
+    background-color: green;
+    scale:0.99; 
+}
+.wAnswer:active {
+    background-color: red;
+    scale: 0.99;
+}
+.wAnswer:hover, .rAnswer:hover {
+    cursor:pointer; 
+}

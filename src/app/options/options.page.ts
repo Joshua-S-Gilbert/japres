@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Data } from '@angular/router';
 import { Router } from '@angular/router';
+import { DataService } from '../services/data.service';
 
 @Component({
   selector: 'app-options',
@@ -10,10 +11,15 @@ import { Router } from '@angular/router';
 export class OptionsPage implements OnInit {
   id: any; 
   type: any; 
-  constructor(private route: ActivatedRoute, private router: Router) { }
+  gameL: any; 
+  topics: any[] = []; 
+  topic: any; 
+  game:any; 
+  constructor(private route: ActivatedRoute, private router: Router, private data: DataService) { }
 
   ngOnInit() {
      this.id = this.route.snapshot.paramMap.get('id')!;
+     this.getTopics(); 
   }
   //will grab the id and route to the relevant game
   //e.g. if the id is 1, the router will use '/game1/ url
@@ -21,12 +27,55 @@ export class OptionsPage implements OnInit {
 
   //route with type and send topics to session storage instead of routing
   startGame(){
+    this.getGame(); 
     if(this.type == undefined){
       this.type = 0; 
     }
-    this.router.navigateByUrl('/e-match/'+this.type); 
+
+    if(this.gameL == undefined) {
+      this.gameL = 15; 
+      sessionStorage.setItem('gameL', this.gameL);
+    } else {
+      sessionStorage.setItem('gameL', this.gameL);
+    }
+
+    if(this.topic == undefined) {
+      let r = Math.floor(Math.random() * this.topics.length);
+      this.topic = this.topics[r]; 
+      sessionStorage.setItem('topic', this.topic); 
+    }else {
+      sessionStorage.setItem('topic', this.topic);
+    }
+    console.log(this.topic);
+    this.router.navigateByUrl('/'+this.game+'/'+this.type); 
   }
   navHome(){
+   
+     
     this.router.navigateByUrl('/'); 
+  }
+  getTopics(){
+    this.data.getValues().pipe().subscribe(data=> { 
+      //this is a temporary variable to hold the data as
+      //array of the row values as strings
+      let list = data.split('\r');
+       
+      //loops through each row and splits values by comma 
+      //into separate instances
+      list.forEach(e => {
+        let x = e.split(','); 
+        if(!this.topics.find((element) => element == x[3])) {
+          this.topics.push(x[3]); 
+        }
+      }); 
+      
+    }, err => console.error('Observer got an error: ' + err));
+  }
+  getGame(){
+    if(this.id == 1){
+      this.game = 'e-match';
+    } else if(this.id == 2) {
+      this.game = 'j-match';
+    }
   }
 }

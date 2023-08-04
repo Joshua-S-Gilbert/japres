@@ -10,11 +10,7 @@ import { Router } from '@angular/router';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-  rawData: any[] = []; 
-  //defined as an array of the Question interface
-  //will only take in new values if they match the interface
-  japresData: Question[] = [];
-  filterData: any[] = []; 
+  
   constructor(private data: DataService, private router: Router) {}
   ngOnInit(){
   }

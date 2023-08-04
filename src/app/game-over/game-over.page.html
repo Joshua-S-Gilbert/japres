@@ -1,0 +1,25 @@
+<div id="simulator">
+
+  <ion-header [translucent]="true">
+    <ion-toolbar>
+      <ion-title>eMatch</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content [fullscreen]="true">
+   <h1> (Insert Game Name) Over!</h1>
+    <h3>Your Score was {{cCount}} / {{gameL}}</h3>
+   <button class="btn" (click)="gameReset()">
+    <ion-icon name="reload"></ion-icon>
+   </button>
+
+   <button class="btn" (click)="nav('home')">
+    <ion-icon name="home"></ion-icon>
+   </button>
+
+   <button class="btn" (click)="nav('options/1')">
+    <ion-icon name="cog"></ion-icon>
+   </button>
+  </ion-content>
+
+</div>

@@ -13,10 +13,29 @@
   <h1>Writing Type:</h1>
 
   <div>
+    
     <select class="form-select mb-3" id="exampleSelect1" ngDefaultControl name="type" [(ngModel)]="type">
       <option value=0 selected="selected">Romaji</option>
       <option value=1>Kana</option>
       <option value=2>Hiragana</option>
+    </select>
+    <br>
+    <br> 
+    <h1>Game Length: </h1>
+    <div>
+      <select name="gameL" [(ngModel)]="gameL">
+        <option value=15>Short Game - 15 Questions</option>
+        <option value=40>Long Game - 40 Questions</option>
+      </select>
+    </div>
+
+  </div>
+  <br> 
+  <h1>Topics: </h1>
+  <div id="topics">
+    <select class="form-select mb-3" id="exampleSelect1" ngDefaultControl name="topic" [(ngModel)]="topic">
+      <option *ngFor="let t of topics" [value]="t">{{t}}</option>
+      
     </select>
   </div>
   <!--Below click func will take on ID to determine correct game route

@@ -1,0 +1,752 @@
+0,funny interesting,おもしろい,Adjectives,kana,omoshiroi
+1,funny interesting,omoshiroi,Adjectives,romaji,omoshiroi
+2,fun enjoyable,たのしい,Adjectives,kana,tanoshii
+3,fun enjoyable,tanoshii,Adjectives,romaji,tanoshii
+4,delicious,おいしい,Adjectives,kana,oishii
+5,delicious,oishii,Adjectives,romaji,oishii
+6,new,あたらしい,Adjectives,kana,atarashii
+7,new,atarashii,Adjectives,romaji,atarashii
+8,good,よい,Adjectives,kana,yoi
+9,good,yoi,Adjectives,romaji,yoi
+10,boring,つまらない,Adjectives,kana,tsumaranai
+11,boring,tsumaranai,Adjectives,romaji,tsumaranai
+12,pretty,きれい,Adjectives,kana,kirei
+13,pretty,kirei,Adjectives,romaji,kirei
+14,strange,へん,Adjectives,kana,hen
+15,strange,hen,Adjectives,romaji,hen
+16,difficult,むずかしい,Adjectives,kana,muzukashii
+17,difficult,muzukashii,Adjectives,romaji,muzukashii
+18,old,ふるい,Adjectives,kana,furui
+19,old,furui,Adjectives,romaji,furui
+20,beautiful,うつくしい,Adjectives,kana,utsukushii
+21,beautiful,utsukushii,Adjectives,romaji,utsukushii
+22,bad,わるい,Adjectives,kana,warui
+23,bad,warui,Adjectives,romaji,warui
+24,splendid wonderful,すばらしい,Adjectives,kana,subarashii
+25,splendid wonderful,subarashii,Adjectives,romaji,subarashii
+26,wow! amazing,すごい,Adjectives,kana,sugoi
+27,wow! amazing,sugoi,Adjectives,romaji,sugoi
+28,wonderful; nice,すてき,Adjectives,kana,suteki
+29,wonderful; nice,suteki,Adjectives,romaji,suteki
+30,tall; high; expensive,たかい,Adjectives,kana,takai
+31,tall; high; expensive,takai,Adjectives,romaji,takai
+32,fast quick,はやい,Adjectives,kana,hayai
+33,fast quick,hayai,Adjectives,romaji,hayai
+34,strict,きびしい,Adjectives,kana,kibishii
+35,strict,kibishii,Adjectives,romaji,kibishii
+36,long,ながい,Adjectives,kana,nagai
+37,long,nagai,Adjectives,romaji,nagai
+38,trendy; cool,かっこいい,Adjectives,kana,kakkoii
+39,trendy; cool,kakkoii,Adjectives,romaji,kakkoii
+40,kind; gentle,やさしい,Adjectives,kana,yasashii
+41,kind; gentle,yasashii,Adjectives,romaji,yasashii
+42,warm,あたたかい,Adjectives,kana,atatakai
+43,warm,atatakai,Adjectives,romaji,atatakai
+44,short,みじかい,Adjectives,kana,mijikai
+45,short,mijikai,Adjectives,romaji,mijikai
+46,thin; slender,ほそい,Adjectives,kana,hosoi
+47,thin; slender,hosoi,Adjectives,romaji,hosoi
+48,slow,おそい,Adjectives,kana,osoi
+49,slow,osoi,Adjectives,romaji,osoi
+50,famous,ゆうめい,Adjectives,kana,yuumei
+51,famous,yuumei,Adjectives,romaji,yuumei
+52,cool; cold (to touch),つめたい,Adjectives,kana,tsumetai
+53,cool; cold (to touch),tsumetai,Adjectives,romaji,tsumetai
+54,cheap; inexpensive,やすい,Adjectives,kana,yasui
+55,cheap; inexpensive,yasui,Adjectives,romaji,yasui
+56,young,わかい,Adjectives,kana,wakai
+57,young,wakai,Adjectives,romaji,wakai
+58,convenient,げんり,Adjectives,kana,benri
+59,convenient,benri,Adjectives,romaji,benri
+60,large big,おおきい,Adjectives,kana,ookii
+61,large big,ookii,Adjectives,romaji,ookii
+62,small,ちいさい,Adjectives,kana,chiisai
+63,small,chiisai,Adjectives,romaji,chiisai
+64,hot,あつい,Adjectives,kana,atsui
+65,hot,atsui,Adjectives,romaji,atsui
+66,cold,さむい,Adjectives,kana,samui
+67,cold,samui,Adjectives,romaji,samui
+68,cute,かわいい,Adjectives,kana,kawaii
+69,cute,kawaii,Adjectives,romaji,kawaii
+70,scary,こわい,Adjectives,kana,kowai
+71,scary,kowai,Adjectives,romaji,kowai
+72,animal,どうぶつ,Animals,kana,doubutsu
+73,animal,doubutsu,Animals,romaji,doubutsu
+74,zoo,どうぶつえん,Animals,kana,doubutsuen
+75,zoo,doubutsuen,Animals,romaji,doubutsuen
+76,dog,いぬ,Animals,kana,inu
+77,dog,inu,Animals,romaji,inu
+78,puppy,こいぬ,Animals,kana,koinu
+79,puppy,koinu,Animals,romaji,koinu
+80,cat  ,ねこ,Animals,kana,neko
+81,cat  ,neko,Animals,romaji,neko
+82,kitten,こねこ,Animals,kana,koneko
+83,kitten,koneko,Animals,romaji,koneko
+84,bird,とり,Animals,kana,tori
+85,bird,tori,Animals,romaji,tori
+86,horse,うま,Animals,kana,uma
+87,horse,uma,Animals,romaji,uma
+88,monkey; ape,さる,Animals,kana,saru
+89,monkey; ape,saru,Animals,romaji,saru
+90,snake,へび,Animals,kana,hebi
+91,snake,hebi,Animals,romaji,hebi
+92,cow,うし,Animals,kana,ushi
+93,cow,ushi,Animals,romaji,ushi
+94,deer,しか,Animals,kana,shika
+95,deer,shika,Animals,romaji,shika
+96,elephant,ぞう,Animals,kana,zou
+97,elephant,zou,Animals,romaji,zou
+98,mouse; rat,ねずみ,Animals,kana,nezumi
+99,mouse; rat,nezumi,Animals,romaji,nezumi
+100,chicken,にわとり,Animals,kana,niwatori
+101,chicken,niwatori,Animals,romaji,niwatori
+102,turtle; tortoise,かめ,Animals,kana,kame
+103,turtle; tortoise,kame,Animals,romaji,kame
+104,frog,かえる,Animals,kana,kaeru
+105,frog,kaeru,Animals,romaji,kaeru
+106,spider,くも,Animals,kana,kumo
+107,spider,kumo,Animals,romaji,kumo
+108,tiger,とら,Animals,kana,tora
+109,tiger,tora,Animals,romaji,tora
+110,rabbit; hare,うさぎ,Animals,kana,usagi
+111,rabbit; hare,usagi,Animals,romaji,usagi
+112,sheep,ひつじ,Animals,kana,hitsuji
+113,sheep,hitsuji,Animals,romaji,hitsuji
+114,squirrel,りす,Animals,kana,risu
+115,squirrel,risu,Animals,romaji,risu
+116,pig,ぶた,Animals,kana,buta
+117,pig,buta,Animals,romaji,buta
+118,goat,やぎ,Animals,kana,yagi
+119,goat,yagi,Animals,romaji,yagi
+120,bear,くま,Animals,kana,kuma
+121,bear,kuma,Animals,romaji,kuma
+122,wolf,おおかみ,Animals,kana,ookami
+123,wolf,ookami,Animals,romaji,ookami
+124,body,からだ,Body Parts,kana,karada
+125,body,karada,Body Parts,romaji,karada
+126,head,あたま,Body Parts,kana,atama
+127,head,atama,Body Parts,romaji,atama
+128,hair,かみ,Body Parts,kana,kami
+129,hair,kami,Body Parts,romaji,kami
+130,eye(s),め,Body Parts,kana,me
+131,eye(s),me,Body Parts,romaji,me
+132,nose,はな,Body Parts,kana,hana
+133,nose,hana,Body Parts,romaji,hana
+134,mouth,くち,Body Parts,kana,kuchi
+135,mouth,kuchi,Body Parts,romaji,kuchi
+136,tooth; teeth,は,Body Parts,kana,ha
+137,tooth; teeth,ha,Body Parts,romaji,ha
+138,ear(s),みみ,Body Parts,kana,mimi
+139,ear(s),mimi,Body Parts,romaji,mimi
+140,throat,のど,Body Parts,kana,nodo
+141,throat,nodo,Body Parts,romaji,nodo
+142,shoulder,かた,Body Parts,kana,kata
+143,shoulder,kata,Body Parts,romaji,kata
+144,chest,むね,Body Parts,kana,mune
+145,chest,mune,Body Parts,romaji,mune
+146,stomach,おなか,Body Parts,kana,onaka
+147,stomach,onaka,Body Parts,romaji,onaka
+148,arm(s),うで,Body Parts,kana,ude
+149,arm(s),ude,Body Parts,romaji,ude
+150,elbow(s),ひじ,Body Parts,kana,hiji
+151,elbow(s),hiji,Body Parts,romaji,hiji
+152,hand(s),て,Body Parts,kana,te
+153,hand(s),te,Body Parts,romaji,te
+154,finger(s),ゆび,Body Parts,kana,yubi
+155,finger(s),yubi,Body Parts,romaji,yubi
+156,leg(s); foot; feet,あし,Body Parts,kana,ashi
+157,leg(s); foot; feet,ashi,Body Parts,romaji,ashi
+158,knee(s),ひざ,Body Parts,kana,hiza
+159,knee(s),hiza,Body Parts,romaji,hiza
+160,colour,いろ,Colours,kana,iro
+161,colour,iro,Colours,romaji,iro
+162,red,あかい,Colours,kana,akai
+163,red,akai,Colours,romaji,akai
+164,blue,あおい,Colours,kana,aoi
+165,blue,aoi,Colours,romaji,aoi
+166,orange,オレンジ,Colours,kana,orenji
+167,orange,orenji,Colours,romaji,orenji
+168,yellow,きいろい,Colours,kana,kiiroi
+169,yellow,kiiroi,Colours,romaji,kiiroi
+170,brown,ちゃいろい,Colours,kana,chairoi
+171,brown,chairoi,Colours,romaji,chairoi
+172,black,くろい,Colours,kana,kuroi
+173,black,kuroi,Colours,romaji,kuroi
+174,white,しろい,Colours,kana,shiroi
+175,white,shiroi,Colours,romaji,shiroi
+176,green,みどり,Colours,kana,midori
+177,green,midori,Colours,romaji,midori
+178,pink,ピンク,Colours,kana,pinku
+179,pink,pinku,Colours,romaji,pinku
+180,purple,むらさき,Colours,kana,murasaki
+181,purple,murasaki,Colours,romaji,murasaki
+182,gold,きんいろ,Colours,kana,kiniro
+183,gold,kiniro,Colours,romaji,kiniro
+184,silver,ぎんいろ,Colours,kana,giniro
+185,silver,giniro,Colours,romaji,giniro
+186,grey,はいいろ,Colours,kana,haiiro
+187,grey,haiiro,Colours,romaji,haiiro
+188,rainbow coloured,にじいろ,Colours,kana,nijiiro
+189,rainbow coloured,nijiiro,Colours,romaji,nijiiro
+190,today,きょう,Days weeks months years,kana,kyou
+191,today,kyou,Days weeks months years,romaji,kyou
+192,tomorrow,あした,Days weeks months years,kana,ashita
+193,tomorrow,ashita,Days weeks months years,romaji,ashita
+194,yesterday,きのう,Days weeks months years,kana,kinou
+195,yesterday,kinou,Days weeks months years,romaji,kinou
+196,Monday,げつようび,Days weeks months years,kana,getsuyoubi
+197,Monday,getsuyoubi,Days weeks months years,romaji,getsuyoubi
+198,Tuesday,かようび,Days weeks months years,kana,kayoubi
+199,Tuesday,kayoubi,Days weeks months years,romaji,kayoubi
+200,Wednesday,すいようび,Days weeks months years,kana,suiyoubi
+201,Wednesday,suiyoubi,Days weeks months years,romaji,suiyoubi
+202,Thursday,もくようび,Days weeks months years,kana,mokuyoubi
+203,Thursday,mokuyoubi,Days weeks months years,romaji,mokuyoubi
+204,Friday,きんようび,Days weeks months years,kana,kinyoubi
+205,Friday,kinyoubi,Days weeks months years,romaji,kinyoubi
+206,Saturday,どようび,Days weeks months years,kana,doyoubi
+207,Saturday,doyoubi,Days weeks months years,romaji,doyoubi
+208,Sunday,にちようび,Days weeks months years,kana,nichiyoubi
+209,Sunday,nichiyoubi,Days weeks months years,romaji,nichiyoubi
+210,this week,こんしゅう,Days weeks months years,kana,konshuu
+211,this week,konshuu,Days weeks months years,romaji,konshuu
+212,last week,せんしゅう,Days weeks months years,kana,senshuu
+213,last week,senshuu,Days weeks months years,romaji,senshuu
+214,next week,らいしゅう,Days weeks months years,kana,raishuu
+215,next week,raishuu,Days weeks months years,romaji,raishuu
+216,January,いちがつ,Days weeks months years,kana,ichigatsu
+217,January,ichigatsu,Days weeks months years,romaji,ichigatsu
+218,February,にがつ,Days weeks months years,kana,nigatsu
+219,February,nigatsu,Days weeks months years,romaji,nigatsu
+220,March,さんがつ,Days weeks months years,kana,sangatsu
+221,March,sangatsu,Days weeks months years,romaji,sangatsu
+222,April,しがつ,Days weeks months years,kana,shigatsu
+223,April,shigatsu,Days weeks months years,romaji,shigatsu
+224,May,ごがつ,Days weeks months years,kana,gogatsu
+225,May,gogatsu,Days weeks months years,romaji,gogatsu
+226,June,ろくがつ,Days weeks months years,kana,rokugatsu
+227,June,rokugatsu,Days weeks months years,romaji,rokugatsu
+228,July,しちがつ,Days weeks months years,kana,shichigatsu
+229,July,shichigatsu,Days weeks months years,romaji,shichigatsu
+230,August,はちがつ,Days weeks months years,kana,hachigatsu
+231,August,hachigatsu,Days weeks months years,romaji,hachigatsu
+232,September,くがつ,Days weeks months years,kana,kugatsu
+233,September,kugatsu,Days weeks months years,romaji,kugatsu
+234,October,じゅうがつ,Days weeks months years,kana,juugatsu
+235,October,juugatsu,Days weeks months years,romaji,juugatsu
+236,November,じゅういちがつ,Days weeks months years,kana,juuichigatsu
+237,November,juuichigatsu,Days weeks months years,romaji,juuichigatsu
+238,December,じゅうにがつ,Days weeks months years,kana,juunigatsu
+239,December,juunigatsu,Days weeks months years,romaji,juunigatsu
+240,this month,こんげつ,Days weeks months years,kana,kongetsu
+241,this month,kongetsu,Days weeks months years,romaji,kongetsu
+242,last month,せんげつ,Days weeks months years,kana,sengetsu
+243,last month,sengetsu,Days weeks months years,romaji,sengetsu
+244,next month,らいげつ,Days weeks months years,kana,raigetsu
+245,next month,raigetsu,Days weeks months years,romaji,raigetsu
+246,this year,ことし,Days weeks months years,kana,kotoshi
+247,this year,kotoshi,Days weeks months years,romaji,kotoshi
+248,last year,きょねん,Days weeks months years,kana,kyonen
+249,last year,kyonen,Days weeks months years,romaji,kyonen
+250,next year,らいねん,Days weeks months years,kana,rainen
+251,next year,rainen,Days weeks months years,romaji,rainen
+252,every day,まいにち,Days weeks months years,kana,mainichi
+253,every day,mainichi,Days weeks months years,romaji,mainichi
+254,every week,まいしゅう,Days weeks months years,kana,maishuu
+255,every week,maishuu,Days weeks months years,romaji,maishuu
+256,every month,まいつき,Days weeks months years,kana,maitsuki
+257,every month,maitsuki,Days weeks months years,romaji,maitsuki
+258,every year,まいとし,Days weeks months years,kana,maitoshi
+259,every year,maitoshi,Days weeks months years,romaji,maitoshi
+260,thank you very much,ありがとうございます,Essential,kana,arigatougozaimasu
+261,thank you very much,arigatou gozaimasu,Essential,romaji,arigatougozaimasu
+262,you’re welcome,どういたしまして,Essential,kana,douitashimashite
+263,you’re welcome,douitashimashite,Essential,romaji,douitashimashite
+264,how do you do?,はじめまして,Essential,kana,hajimemashite
+265,how do you do?,hajimemashite,Essential,romaji,hajimemashite
+266,please give me,おねがいします,Essential,kana,onegaishimasu
+267,please give me,onegaishimasu,Essential,romaji,onegaishimasu
+268,nice to meet you,どうぞよろしく,Essential,kana,douzoyoroshiku
+269,nice to meet you,douzo yoroshiku,Essential,romaji,douzoyoroshiku
+270,fine ok,だいじょうぶ,Essential,kana,daijoubu
+271,fine ok,daijoubu,Essential,romaji,daijoubu
+272,It is so? really?,そうですか,Essential,kana,soudesuka
+273,It is so? really?,sou desu ka,Essential,romaji,soudesuka
+274,How are you?,おげんきですか,Essential,kana,ogenkidesuka
+275,How are you?,ogenki desu ka,Essential,romaji,ogenkidesuka
+276,I’m fine/well,げんきです,Essential,kana,genkidesu
+277,I’m fine/well,genki desu,Essential,romaji,genkidesu
+278,I understand,わかります,Essential,kana,wakarimasu
+279,I understand,wakarimasu,Essential,romaji,wakarimasu
+280,I don’t understand,わかりません,Essential,kana,wakarimasen
+281,I don’t understand,wakarimasen,Essential,romaji,wakarimasen
+282,please,ください,Essential,kana,kudasai
+283,please,kudasai,Essential,romaji,kudasai
+284,excuse me; sorry,すみません,Essential,kana,sumimasen
+285,excuse me; sorry,sumimasen,Essential,romaji,sumimasen
+286,I’m sorry,ごめんなさい,Essential,kana,gomennasai
+287,I’m sorry,gomen nasai,Essential,romaji,gomennasai
+288,one more time,もういちど,Essential,kana,mouichido
+289,one more time,mou ichi do,Essential,romaji,mouichido
+290,see you later,じゃあまた,Essential,kana,jaamata
+291,see you later,jaa mata,Essential,romaji,jaamata
+292,yes,はい,Essential,kana,hai
+293,yes,hai,Essential,romaji,hai
+294,no,いいえ,Essential,kana,iie
+295,no,iie,Essential,romaji,iie
+296,I,わたし,Essential,kana,watashi
+297,I,watashi,Essential,romaji,watashi
+298,you,あなた,Essential,kana,anata
+299,you,anata,Essential,romaji,anata
+300,person,ひと,Essential,kana,hito
+301,person,hito,Essential,romaji,hito
+302,name,なまえ,Essential,kana,namae
+303,name,namae,Essential,romaji,namae
+304,he,かれ,Essential,kana,kare
+305,he,kare,Essential,romaji,kare
+306,she,かのじょ,Essential,kana,kanojo
+307,she,kanojo,Essential,romaji,kanojo
+308,here you go,どうぞ,Essential,kana,douzo
+309,here you go,douzo,Essential,romaji,douzo
+310,welcome,ようこそ,Essential,kana,youkoso
+311,welcome,youkoso,Essential,romaji,youkoso
+312,I (for males),ぼく,Essential,kana,boku
+313,I (for males),boku,Essential,romaji,boku
+314,Australia,オーストラリア,Essential,kana,oosutoraria
+315,Australia,oosutoraria,Essential,romaji,oosutoraria
+316,Japan,にほん,Essential,kana,nihon
+317,Japan,nihon,Essential,romaji,nihon
+318,grandfather,おじいさん,Family & counting people,kana,ojiisan
+319,grandfather,ojiisan,Family & counting people,romaji,ojiisan
+320,grandmother,おばあさん,Family & counting people,kana,obaasan
+321,grandmother,obaasan,Family & counting people,romaji,obaasan
+322,father,おとうさん,Family & counting people,kana,otousan
+323,father,otousan,Family & counting people,romaji,otousan
+324,mother,おかあさん,Family & counting people,kana,okaasan
+325,mother,okaasan,Family & counting people,romaji,okaasan
+326,older brother,おにいさん,Family & counting people,kana,oniisan
+327,older brother,oniisan,Family & counting people,romaji,oniisan
+328,older sister,おねえさん,Family & counting people,kana,oneesan
+329,older sister,oneesan,Family & counting people,romaji,oneesan
+330,younger sister,いもうと,Family & counting people,kana,imouto
+331,younger sister,imouto,Family & counting people,romaji,imouto
+332,younger brother,おとうと,Family & counting people,kana,otouto
+333,younger brother,otouto,Family & counting people,romaji,otouto
+334,family,かぞく,Family & counting people,kana,kazoku
+335,family,kazoku,Family & counting people,romaji,kazoku
+336,aunt,おばさん,Family & counting people,kana,obasan
+337,aunt,obasan,Family & counting people,romaji,obasan
+338,uncle,おじさん,Family & counting people,kana,ojisan
+339,uncle,ojisan,Family & counting people,romaji,ojisan
+340,son,むすこ,Family & counting people,kana,musuko
+341,son,musuko,Family & counting people,romaji,musuko
+342,daughter,むすめ,Family & counting people,kana,musume
+343,daughter,musume,Family & counting people,romaji,musume
+344,child(ren),こども,Family & counting people,kana,kodomo
+345,child(ren),kodomo,Family & counting people,romaji,kodomo
+346,niece,めい,Family & counting people,kana,mei
+347,niece,mei,Family & counting people,romaji,mei
+348,nephew,おい,Family & counting people,kana,oi
+349,nephew,oi,Family & counting people,romaji,oi
+350,parents,りょうしん,Family & counting people,kana,ryoushin
+351,parents,ryoushin,Family & counting people,romaji,ryoushin
+352,1 person,ひとり,Family & counting people,kana,hitori
+353,1 person,hitori,Family & counting people,romaji,hitori
+354,2 people,ふたり,Family & counting people,kana,futari
+355,2 people,futari,Family & counting people,romaji,futari
+356,3 people,さんにん,Family & counting people,kana,sannin
+357,3 people,sannin,Family & counting people,romaji,sannin
+358,4 people,よにん,Family & counting people,kana,yonin
+359,4 people,yonin,Family & counting people,romaji,yonin
+360,5 people,ごにん,Family & counting people,kana,gonin
+361,5 people,gonin,Family & counting people,romaji,gonin
+362,6 people,ろくにん,Family & counting people,kana,rokunin
+363,6 people,rokunin,Family & counting people,romaji,rokunin
+364,7 people,しちにん,Family & counting people,kana,shichinin
+365,7 people,shichinin,Family & counting people,romaji,shichinin
+366,8 people,はちにん,Family & counting people,kana,hachinin
+367,8 people,hachinin,Family & counting people,romaji,hachinin
+368,9 people,きゅうにん,Family & counting people,kana,kyuunin
+369,9 people,kyuunin,Family & counting people,romaji,kyuunin
+370,10 people,じゅうにん,Family & counting people,kana,juunin
+371,10 people,juunin,Family & counting people,romaji,juunin
+372,beer,ビール,Drinks & Sweets,kana,biiru
+373,beer,biiru,Drinks & Sweets,romaji,biiru
+374,coffee,コーヒー,Drinks & Sweets,kana,koohii
+375,coffee,koohii,Drinks & Sweets,romaji,koohii
+376,orange juice,オレンジジュース,Drinks & Sweets,kana,orenjijuusu
+377,orange juice,orenji juusu,Drinks & Sweets,romaji,orenjijuusu
+378,lemonade,レモネード,Drinks & Sweets,kana,remoneedo
+379,lemonade,remoneedo,Drinks & Sweets,romaji,remoneedo
+380,doughnut donut,ドーナツ,Drinks & Sweets,kana,doonatsu
+381,doughnut donut,doonatsu,Drinks & Sweets,romaji,doonatsu
+382,muffin,マフィン,Drinks & Sweets,kana,mafin
+383,muffin,mafin,Drinks & Sweets,romaji,mafin
+384,chocolate,チョコレート,Drinks & Sweets,kana,chokoreeto
+385,chocolate,chokoreeto,Drinks & Sweets,romaji,chokoreeto
+386,cookie,クッキー,Drinks & Sweets,kana,kukkii
+387,cookie,kukkii,Drinks & Sweets,romaji,kukkii
+388,milk,ぎゅうにゅう,Drinks & Sweets,kana,gyuunyuu
+389,milk,gyuunyuu,Drinks & Sweets,romaji,gyuunyuu
+390,cake,ケーキ,Drinks & Sweets,kana,keeki
+391,cake,keeki,Drinks & Sweets,romaji,keeki
+392,candy; sweets,おかし,Drinks & Sweets,kana,okashi
+393,candy; sweets,okashi,Drinks & Sweets,romaji,okashi
+394,drink,のみもの,Drinks & Sweets,kana,nomimono
+395,drink,nomimono,Drinks & Sweets,romaji,nomimono
+396,wine,ワイン,Drinks & Sweets,kana,wain
+397,wine,wain,Drinks & Sweets,romaji,wain
+398,ice cream,アイスクリーム,Drinks & Sweets,kana,aisukuriimu
+399,ice cream,aisu kuriimu,Drinks & Sweets,romaji,aisukuriimu
+400,water,みず,Drinks & Sweets,kana,mizu
+401,water,mizu,Drinks & Sweets,romaji,mizu
+402,cola; coke,コーラ,Drinks & Sweets,kana,koora
+403,cola; coke,koora,Drinks & Sweets,romaji,koora
+404,green tea,おちゃ,Drinks & Sweets,kana,ocha
+405,green tea,ocha,Drinks & Sweets,romaji,ocha
+406,black tea,こうちゃ,Drinks & Sweets,kana,koucha
+407,black tea,koucha,Drinks & Sweets,romaji,koucha
+408,cheese,チーズ,Fruit & Vegetables,kana,chiizu
+409,cheese,chiizu,Fruit & Vegetables,romaji,chiizu
+410,lettuce,レタス,Fruit & Vegetables,kana,retasu
+411,lettuce,retasu,Fruit & Vegetables,romaji,retasu
+412,vegetables,やさい,Fruit & Vegetables,kana,yasai
+413,vegetables,yasai,Fruit & Vegetables,romaji,yasai
+414,onion,たまねぎ,Fruit & Vegetables,kana,tamanegi
+415,onion,tamanegi,Fruit & Vegetables,romaji,tamanegi
+416,egg,たまご,Fruit & Vegetables,kana,tamago
+417,egg,tamago,Fruit & Vegetables,romaji,tamago
+418,salad,サラダ,Fruit & Vegetables,kana,sarada
+419,salad,sarada,Fruit & Vegetables,romaji,sarada
+420,carrot,にんじん,Fruit & Vegetables,kana,ninjin
+421,carrot,ninjin,Fruit & Vegetables,romaji,ninjin
+422,banana,バナナ,Fruit & Vegetables,kana,banana
+423,banana,banana.,Fruit & Vegetables,romaji,banana
+424,tomato,トマト,Fruit & Vegetables,kana,tomato
+425,tomato,tomato.,Fruit & Vegetables,romaji,tomato
+426,grapes,ぶどう,Fruit & Vegetables,kana,budou
+427,grapes,budou,Fruit & Vegetables,romaji,budou
+428,peach,もも,Fruit & Vegetables,kana,momo
+429,peach,momo,Fruit & Vegetables,romaji,momo
+430,melon,メロン,Fruit & Vegetables,kana,meron
+431,melon,meron,Fruit & Vegetables,romaji,meron
+432,mango,マンゴー,Fruit & Vegetables,kana,mangoo
+433,mango,mangoo,Fruit & Vegetables,romaji,mangoo
+434,lime,ライム,Fruit & Vegetables,kana,raimu
+435,lime,raimu,Fruit & Vegetables,romaji,raimu
+436,mandarin,みかん,Fruit & Vegetables,kana,mikan
+437,mandarin,mikan,Fruit & Vegetables,romaji,mikan
+438,coconut,ココナッツ,Fruit & Vegetables,kana,kokonattsu
+439,coconut,kokonattsu,Fruit & Vegetables,romaji,kokonattsu
+440,pineapple,パイナップル,Fruit & Vegetables,kana,painappuru
+441,pineapple,painappuru,Fruit & Vegetables,romaji,painappuru
+442,cherry,さくらんぼ,Fruit & Vegetables,kana,sakuranbo
+443,cherry,sakuranbo,Fruit & Vegetables,romaji,sakuranbo
+444,pear,なし,Fruit & Vegetables,kana,nashi
+445,pear,nashi,Fruit & Vegetables,romaji,nashi
+446,lemon,レモン,Fruit & Vegetables,kana,remon
+447,lemon,remon,Fruit & Vegetables,romaji,remon
+448,orange,オレンジ,Fruit & Vegetables,kana,orenji
+449,orange,orenji,Fruit & Vegetables,romaji,orenji
+450,watermelon,すいか,Fruit & Vegetables,kana,suika
+451,watermelon,suika,Fruit & Vegetables,romaji,suika
+452,apple,りんご,Fruit & Vegetables,kana,ringo
+453,apple,ringo,Fruit & Vegetables,romaji,ringo
+454,strawberry,いちご,Fruit & Vegetables,kana,ichigo
+455,strawberry,ichigo,Fruit & Vegetables,romaji,ichigo
+456,fruit,くだもの,Fruit & Vegetables,kana,kudamono
+457,fruit,kudamono,Fruit & Vegetables,romaji,kudamono
+458,fish,さかな,Other Food,kana,sakana
+459,fish,sakana,Other Food,romaji,sakana
+460,pasta,パスタ,Other Food,kana,pasuta
+461,pasta,pasuta,Other Food,romaji,pasuta
+462,hamburger,ハンバーガー,Other Food,kana,hanbaagaa
+463,hamburger,hanbaagaa,Other Food,romaji,hanbaagaa
+464,pizza,ピザ,Other Food,kana,piza
+465,pizza,piza,Other Food,romaji,piza
+466,meat,にく,Other Food,kana,niku
+467,meat,niku,Other Food,romaji,niku
+468,rice; meal,ごはん,Other Food,kana,gohan
+469,rice; meal,gohan,Other Food,romaji,gohan
+470,breakfast,あさごはん,Other Food,kana,asagohan
+471,breakfast,asagohan,Other Food,romaji,asagohan
+472,dinner,ばんごはん,Other Food,kana,bangohan
+473,dinner,bangohan,Other Food,romaji,bangohan
+474,lunch,ひるごはん,Other Food,kana,hirugohan
+475,lunch,hirugohan,Other Food,romaji,hirugohan
+476,chopsticks,おはし,Other Food,kana,ohashi
+477,chopsticks,ohashi,Other Food,romaji,ohashi
+478,bread,パン,Other Food,kana,pan
+479,bread,pan,Other Food,romaji,pan
+480,salt,しお,Other Food,kana,shio
+481,salt,shio,Other Food,romaji,shio
+482,sugar,さとう,Other Food,kana,satou
+483,sugar,satou,Other Food,romaji,satou
+484,soy sauce,しょうゆ,Other Food,kana,shouyu
+485,soy sauce,shouyu,Other Food,romaji,shouyu
+486,pork,ぶたにく,Other Food,kana,butaniku
+487,pork,butaniku,Other Food,romaji,butaniku
+488,beef,ぎゅうにく,Other Food,kana,gyuuniku
+489,beef,gyuuniku,Other Food,romaji,gyuuniku
+490,steak,ステーキ,Other Food,kana,suteeki
+491,steak,suteeki,Other Food,romaji,suteeki
+492,chicken (meat),とりにく,Other Food,kana,toriniku
+493,chicken (meat),toriniku,Other Food,romaji,toriniku
+494,prawn; shrimp; lobster,えび,Other Food,kana,ebi
+495,prawn; shrimp; lobster,ebi,Other Food,romaji,ebi
+496,seaweed,のり,Other Food,kana,nori
+497,seaweed,nori,Other Food,romaji,nori
+498,food,たべもの,Other Food,kana,tabemono
+499,food,tabemono,Other Food,romaji,tabemono
+500,where,どこ,General,kana,doko
+501,where,doko,General,romaji,doko
+502,who,だれ,General,kana,dare
+503,who,dare,General,romaji,dare
+504,why,どうして,General,kana,doushite
+505,why,doushite,General,romaji,doushite
+506,how,どう,General,kana,dou 
+507,how,dou ,General,romaji,dou 
+508,how many,いくつ,General,kana,ikutsu
+509,how many,ikutsu,General,romaji,ikutsu
+510,how much (price),いくら,General,kana,ikura
+511,how much (price),ikura,General,romaji,ikura
+512,what,なに,General,kana,nani
+513,what,nani,General,romaji,nani
+514,what kind of,どんな,General,kana,donna
+515,what kind of,donna,General,romaji,donna
+516,when,いつ,General,kana,itsu
+517,when,itsu,General,romaji,itsu
+518,sometimes,ときどき,General,kana,tokidoki
+519,sometimes,tokidoki,General,romaji,tokidoki
+520,always,いつも,General,kana,itsumo
+521,always,itsumo,General,romaji,itsumo
+522,often,よく,General,kana,yoku
+523,often,yoku,General,romaji,yoku
+524,usually,たいてい,General,kana,taitei
+525,usually,taitei,General,romaji,taitei
+526,occasionally,たまに,General,kana,tamani
+527,occasionally,tama ni,General,romaji,tamani
+528,not very often,あまり,General,kana,amari
+529,not very often,amari,General,romaji,amari
+530,not at all,ぜんぜん,General,kana,zenzen
+531,not at all,zenzen,General,romaji,zenzen
+532,seldom; rarely,めったに,General,kana,mettani
+533,seldom; rarely,metta ni,General,romaji,mettani
+534,good morning,おはようございます,Greetings,kana,ohayougozaimasu
+535,good morning,ohayou gozaimasu,Greetings,romaji,ohayougozaimasu
+536,good afternoon,こんにちは,Greetings,kana,konnichiwa
+537,good afternoon,konnichiwa,Greetings,romaji,konnichiwa
+538,good evening,こんばんは,Greetings,kana,konbanwa
+539,good evening,konbanwa,Greetings,romaji,konbanwa
+540,good night,おやすみなさい,Greetings,kana,oyasuminasai
+541,good night,oyasumi nasai,Greetings,romaji,oyasuminasai
+542,goodbye,さようなら,Greetings,kana,sayounara
+543,goodbye,sayounara,Greetings,romaji,sayounara
+544,hello (telephone),もしもし,Greetings,kana,moshimoshi
+545,hello (telephone),moshi moshi,Greetings,romaji,moshimoshi
+546,see you tomorrow,またあした,Greetings,kana,mataashita
+547,see you tomorrow,mata ashita,Greetings,romaji,mataashita
+548,zero,れい,Numbers,kana,rei
+549,zero,rei,Numbers,romaji,rei
+550,1,いち,Numbers,kana,ichi
+551,1,ichi,Numbers,romaji,ichi
+552,2,に,Numbers,kana,ni
+553,2,ni,Numbers,romaji,ni
+554,3,さん,Numbers,kana,san
+555,3,san,Numbers,romaji,san
+556,4,よん,Numbers,kana,yon
+557,4,yon,Numbers,romaji,yon
+558,5,ご,Numbers,kana,go
+559,5,go,Numbers,romaji,go
+560,6,ろく,Numbers,kana,roku
+561,6,roku,Numbers,romaji,roku
+562,7,しち,Numbers,kana,shichi
+563,7,shichi,Numbers,romaji,shichi
+564,8,はち,Numbers,kana,hachi
+565,8,hachi,Numbers,romaji,hachi
+566,9,きゅう,Numbers,kana,kyuu
+567,9,kyuu,Numbers,romaji,kyuu
+568,10,じゅう,Numbers,kana,juu
+569,10,juu,Numbers,romaji,juu
+570,11,じゅういち,Numbers,kana,juuichi
+571,11,juuichi,Numbers,romaji,juuichi
+572,12,じゅうに,Numbers,kana,juuni
+573,12,juuni,Numbers,romaji,juuni
+574,13,じゅうさん,Numbers,kana,juusan
+575,13,juusan,Numbers,romaji,juusan
+576,14,じゅうよん,Numbers,kana,juuyon
+577,14,juuyon,Numbers,romaji,juuyon
+578,15,じゅうご,Numbers,kana,juugo
+579,15,juugo,Numbers,romaji,juugo
+580,16,じゅうろく,Numbers,kana,juuroku
+581,16,juuroku,Numbers,romaji,juuroku
+582,17,じゅうなな,Numbers,kana,juunana
+583,17,juunana,Numbers,romaji,juunana
+584,18,じゅうはち,Numbers,kana,juuhachi
+585,18,juuhachi,Numbers,romaji,juuhachi
+586,19,じゅうきゅう,Numbers,kana,juukyuu
+587,19,juukyuu,Numbers,romaji,juukyuu
+588,20,にじゅう,Numbers,kana,nijuu
+589,20,nijuu,Numbers,romaji,nijuu
+590,30,さんじゅう,Numbers,kana,sanjuu
+591,30,sanjuu,Numbers,romaji,sanjuu
+592,40,よんじゅう,Numbers,kana,yonjuu
+593,40,yonjuu,Numbers,romaji,yonjuu
+594,50,ごじゅう,Numbers,kana,gojuu
+595,50,gojuu,Numbers,romaji,gojuu
+596,60,ろくじゅう,Numbers,kana,rokujuu
+597,60,rokujuu,Numbers,romaji,rokujuu
+598,70,ななじゅう,Numbers,kana,nanajuu
+599,70,nanajuu,Numbers,romaji,nanajuu
+600,80,はちじゅう,Numbers,kana,hachijuu
+601,80,hachijuu,Numbers,romaji,hachijuu
+602,90,きゅうじゅう,Numbers,kana,kyuujuu
+603,90,kyuujuu,Numbers,romaji,kyuujuu
+604,100,ひゃく,Numbers,kana,hyaku
+605,100,hyaku,Numbers,romaji,hyaku
+606,school,がっこう,School,kana,gakkou
+607,school,gakkou,School,romaji,gakkou
+608,friend,ともだち,School,kana,tomodachi
+609,friend,tomodachi,School,romaji,tomodachi
+610,student,がくせい,School,kana,gakusei
+611,student,gakusei,School,romaji,gakusei
+612,student pupil,せいと,School,kana,seito
+613,student pupil,seito,School,romaji,seito
+614,teacher,せんせい,School,kana,sensei
+615,teacher,sensei,School,romaji,sensei
+616,one's senior,せんぱい,School,kana,senpai
+617,one's senior,senpai,School,romaji,senpai
+618,primary school,しょうがっこう,School,kana,shougakkou
+619,primary school,shougakkou,School,romaji,shougakkou
+620,junior high school,ちゅうがっこう,School,kana,chuugakkou
+621,junior high school,chuugakkou,School,romaji,chuugakkou
+622,senior high school,こうこう,School,kana,koukou
+623,senior high school,koukou,School,romaji,koukou
+624,university,だいがく,School,kana,daigaku
+625,university,daigaku,School,romaji,daigaku
+626,stand up (please),たってください,School,kana,tattekudasai
+627,stand up (please),tatte (kudasai),School,romaji,tattekudasai
+628,sit down (please),すわってください,School,kana,swattekudasai
+629,sit down (please),swatte (kudasai),School,romaji,swattekudasai
+630,(be) quiet,しずかに,School,kana,shizukani
+631,(be) quiet,shizuka ni,School,romaji,shizukani
+632,good job well done,よくできました,School,kana,yokudekimashita
+633,good job well done,yoku dekimashita,School,romaji,yokudekimashita
+634,homework,しゅくだい,School,kana,shukudai
+635,homework,shukudai,School,romaji,shukudai
+636,exam test,しけん,School,kana,shiken
+637,exam test,shiken,School,romaji,shiken
+638,do your best; good luck,がんばって,School,kana,ganbatte
+639,do your best; good luck,ganbatte,School,romaji,ganbatte
+640,everyone,みなさん,School,kana,minasan
+641,everyone,minasan,School,romaji,minasan
+642,lesson class,じゅぎょう,School,kana,jugyou
+643,lesson class,jugyou,School,romaji,jugyou
+644,question,しつもん,School,kana,shitsumon
+645,question,shitsumon,School,romaji,shitsumon
+646,dictionary,じしょ,School,kana,jisho
+647,dictionary,jisho,School,romaji,jisho
+648,desk,つくえ,School,kana,tsukue
+649,desk,tsukue,School,romaji,tsukue
+650,chair,いす,School,kana,isu
+651,chair,isu,School,romaji,isu
+652,pencil,えんぴつ,School,kana,enpitsu
+653,pencil,enpitsu,School,romaji,enpitsu
+654,rubber eraser,けしゴム,School,kana,keshigomu
+655,rubber eraser,keshigomu,School,romaji,keshigomu
+656,library,としょかん,School,kana,toshokan
+657,library,toshokan,School,romaji,toshokan
+658,book(s),ほん,School,kana,hon
+659,book(s),hon,School,romaji,hon
+660,subject (school),かもく,School,kana,kamoku
+661,subject (school),kamoku,School,romaji,kamoku
+662,Japanese (language),にほんご,School,kana,nihongo
+663,Japanese (language),nihongo,School,romaji,nihongo
+664,English (language),えいご,School,kana,eigo
+665,English (language),eigo,School,romaji,eigo
+666,mathematics (maths),すうがく,School,kana,suugaku
+667,mathematics (maths),suugaku,School,romaji,suugaku
+668,science,りか,School,kana,rika
+669,science,rika,School,romaji,rika
+670,history,れきし,School,kana,rekishi
+671,history,rekishi,School,romaji,rekishi
+672,physical education (P.E.),たいいく,School,kana,taiiku
+673,physical education (P.E.),taiiku,School,romaji,taiiku
+674,music,おんがく,School,kana,ongaku
+675,music,ongaku,School,romaji,ongaku
+676,art,びじゅつ,School,kana,bijutsu
+677,art,bijutsu,School,romaji,bijutsu
+678,arithmetic (maths),さんすう,School,kana,sansuu
+679,arithmetic (maths),sansuu,School,romaji,sansuu
+680,to go,いきます,Verbs,kana,ikimasu
+681,to go,ikimasu,Verbs,romaji,ikimasu
+682,to come,きます,Verbs,kana,kimasu
+683,to come,kimasu,Verbs,romaji,kimasu
+684,to return,かえります,Verbs,kana,kaerimasu
+685,to return,kaerimasu,Verbs,romaji,kaerimasu
+686,to understand,わかります,Verbs,kana,wakarimasu
+687,to understand,wakarimasu,Verbs,romaji,wakarimasu
+688,to speak,はなします,Verbs,kana,hanashimasu
+689,to speak,hanashimasu,Verbs,romaji,hanashimasu
+690,to do,します,Verbs,kana,shimasu
+691,to do,shimasu,Verbs,romaji,shimasu
+692,can do,できます,Verbs,kana,dekimasu
+693,can do,dekimasu,Verbs,romaji,dekimasu
+694,to listen,ききます,Verbs,kana,kikimasu
+695,to listen,kikimasu,Verbs,romaji,kikimasu
+696,to sleep,ねます,Verbs,kana,nemasu
+697,to sleep,nemasu,Verbs,romaji,nemasu
+698,to wake up,おきます,Verbs,kana,okimasu
+699,to wake up,okimasu,Verbs,romaji,okimasu
+700,to eat,たべます,Verbs,kana,tabemasu
+701,to eat,tabemasu,Verbs,romaji,tabemasu
+702,to drink,のみます,Verbs,kana,nomimasu
+703,to drink,nomimasu,Verbs,romaji,nomimasu
+704,to study,べんきょうします,Verbs,kana,benkyoushimasu
+705,to study,benkyou shimasu,Verbs,romaji,benkyoushimasu
+706,to practise,れんしゅうします,Verbs,kana,renshuushimasu
+707,to practise,renshuu shimasu,Verbs,romaji,renshuushimasu
+708,to see/look,みます,Verbs,kana,mimasu
+709,to see/look,mimasu,Verbs,romaji,mimasu
+710,to buy,かいます,Verbs,kana,kaimasu
+711,to buy,kaimasu,Verbs,romaji,kaimasu
+712,to read,よみます,Verbs,kana,yomimasu
+713,to read,yomimasu,Verbs,romaji,yomimasu
+714,to write,かきます,Verbs,kana,kakimasu
+715,to write,kakimasu,Verbs,romaji,kakimasu
+716,to walk,あるきます,Verbs,kana,arukimasu
+717,to walk,arukimasu,Verbs,romaji,arukimasu
+718,to run,はしります,Verbs,kana,hashirimasu
+719,to run,hashirimasu,Verbs,romaji,hashirimasu
+720,to say,いいます,Verbs,kana,iimasu
+721,to say,iimasu,Verbs,romaji,iimasu
+722,to open,あけます,Verbs,kana,akemasu
+723,to open,akemasu,Verbs,romaji,akemasu
+724,to close,しめます,Verbs,kana,shimemasu
+725,to close,shimemasu,Verbs,romaji,shimemasu
+726,to teach,おしえます,Verbs,kana,oshiemasu
+727,to teach,oshiemasu,Verbs,romaji,oshiemasu
+728,to learn,ならいます,Verbs,kana,naraimasu
+729,to learn,naraimasu,Verbs,romaji,naraimasu
+730,there is (animate object),います,Verbs,kana,imasu
+731,there is (animate object),imasu,Verbs,romaji,imasu
+732,there is (inanimate object),あります,Verbs,kana,arimasu
+733,there is (inanimate object),arimasu,Verbs,romaji,arimasu
+734,seasons,きせつ,Weather & Seasons,kana,kisetsu
+735,seasons,kisetsu,Weather & Seasons,romaji,kisetsu
+736,spring,はる,Weather & Seasons,kana,haru
+737,spring,haru,Weather & Seasons,romaji,haru
+738,summer,なつ,Weather & Seasons,kana,natsu
+739,summer,natsu,Weather & Seasons,romaji,natsu
+740,autumn,あき,Weather & Seasons,kana,aki
+741,autumn,aki,Weather & Seasons,romaji,aki
+742,winter,ふゆ,Weather & Seasons,kana,fuyu
+743,winter,fuyu,Weather & Seasons,romaji,fuyu
+744,rain,あめ,Weather & Seasons,kana,ame
+745,rain,ame,Weather & Seasons,romaji,ame
+746,snow,ゆき,Weather & Seasons,kana,yuki
+747,snow,yuki,Weather & Seasons,romaji,yuki
+748,hail,ひょう,Weather & Seasons,kana,hyou
+749,hail,hyou,Weather & Seasons,romaji,hyou
+750,weather,てんき,Weather & Seasons,kana,tenki
+751,weather,tenki,Weather & Seasons,romaji,tenki

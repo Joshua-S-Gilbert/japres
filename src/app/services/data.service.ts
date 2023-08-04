@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class DataService {
   //location of the initial csv file
-  japresData = 'assets/test.csv'; 
+  japresData = 'assets/wordData.csv'; 
 
   constructor(private http: HttpClient) { }
 
