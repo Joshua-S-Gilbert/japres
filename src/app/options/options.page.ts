@@ -9,6 +9,26 @@ import { DataService } from '../services/data.service';
   styleUrls: ['./options.page.scss'],
 })
 export class OptionsPage implements OnInit {
+  cho = {
+    adjectives: false,
+    animals: false,
+    body: false,
+    colours: false,
+    time: false,
+    essential: false,
+    people: false,
+    refreshments: false,
+    produce: false,
+    meals: false,
+    general: false,
+    greetings: false,
+    numbers: false,
+    school: false,
+    verbs: false,
+    climate:false
+  }
+  checker: any[] = []; 
+  cTops: any[] = []; 
   id: any; 
   type: any; 
   gameL: any; 
@@ -20,6 +40,7 @@ export class OptionsPage implements OnInit {
   ngOnInit() {
      this.id = this.route.snapshot.paramMap.get('id')!;
      this.getTopics(); 
+     console.log(this.topics);
   }
   //will grab the id and route to the relevant game
   //e.g. if the id is 1, the router will use '/game1/ url
@@ -38,15 +59,15 @@ export class OptionsPage implements OnInit {
     } else {
       sessionStorage.setItem('gameL', this.gameL);
     }
-
+    
     if(this.topic == undefined) {
       let r = Math.floor(Math.random() * this.topics.length);
       this.topic = this.topics[r]; 
-      sessionStorage.setItem('topic', this.topic); 
+      sessionStorage.setItem('topic', 'Adjectives'); 
     }else {
-      sessionStorage.setItem('topic', this.topic);
+      sessionStorage.setItem('topic', 'Adjectives');
     }
-    console.log(this.topic);
+    this.setTopics(); 
     this.router.navigateByUrl('/'+this.game+'/'+this.type); 
   }
   navHome(){
@@ -77,5 +98,19 @@ export class OptionsPage implements OnInit {
     } else if(this.id == 2) {
       this.game = 'j-match';
     }
+  }
+  setTopics() {
+    sessionStorage.removeItem('topics');
+    this.checker = []; 
+    
+   
+    for(let t in this.cho) {
+       if(this.cho[t]) {
+        this.checker.push(t);
+       } 
+    }
+   
+    let x = this.checker.join(","); 
+    sessionStorage.setItem('topics', x); 
   }
 }

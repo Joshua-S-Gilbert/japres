@@ -56,7 +56,8 @@ export class JMatchPage implements OnInit {
         this.rawData.push(x); 
       }); 
          
-      this.makeQuestion2(this.rawData);      
+      this.makeQuestion2(this.rawData);   
+      console.log(this.filtered);    
     }, err => console.error('Observer got an error: ' + err));
    
     
@@ -217,7 +218,7 @@ export class JMatchPage implements OnInit {
     if(result == 1) {
         this.cCount++
     }
-    //need to call to gen new questions
+    //called to make new question
     this.getData(); 
    //checks the question count against game length
     if(this.qCount == this.gameL) {

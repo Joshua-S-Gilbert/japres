@@ -24,7 +24,8 @@ export class EMatchPage implements OnInit {
   topic = sessionStorage.getItem('topic'); 
   gameL = Number(sessionStorage.getItem('gameL'));  
   count = 0;
-
+  savedTopics = sessionStorage.getItem('topics'); 
+  useTopics: any[] = [];
   
   qCount = 0;  
   cCount = 0; 
@@ -38,6 +39,7 @@ export class EMatchPage implements OnInit {
     this.type = this.route.snapshot.paramMap.get('type')!;
 
     this.getData();
+    this.wordSwapper(); 
    
    
       
@@ -76,9 +78,11 @@ export class EMatchPage implements OnInit {
     
     
     arr.forEach(e => {
-      let a = this.typeToNum(e[4])
-      if(a == this.type && e[3] == this.topic) {
-        this.filtered.push(e);
+      let a = this.typeToNum(e[4]);
+        if(this.useTopics.find((element) => element == e[3])) {
+          if(a == this.type) {
+            this.filtered.push(e);
+          }
       }
     });
     let z = 0;
@@ -219,6 +223,43 @@ export class EMatchPage implements OnInit {
       this.router.navigateByUrl('/game-over');  
     } 
     
+  }
+  //use to swap ng model words to the words used in csv file to describe topic
+  wordSwapper(){
+    let x = this.savedTopics.split(",");
+   
+    x.forEach(e => {
+      switch(e) {
+        case 'body':
+          e = 'Body Parts';
+          break;
+        case 'time':
+          e = 'Days weeks months years';
+          break;
+        case 'people':
+          e = 'Family & counting people';
+          break; 
+        case 'refreshments':
+          e = 'Drinks & Sweets';
+          break; 
+        case 'produce':
+          e = 'Fruit & Vegetables';
+          break; 
+        case 'meals':
+          e = 'Other Food';
+          break; 
+        case 'climate':
+          e = 'Weather & Seasons';
+          break;  
+      }
+      let a = e[0]; 
+      let b = a.toUpperCase()
+      let c = e.slice(1);
+      console.log(b+c); 
+      e = b+c; 
+      this.useTopics.push(e);
+    });
+    console.log(this.useTopics); 
   }
  
 }

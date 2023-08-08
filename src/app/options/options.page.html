@@ -13,31 +13,332 @@
   <h1>Writing Type:</h1>
 
   <div>
-    
-    <select class="form-select mb-3" id="exampleSelect1" ngDefaultControl name="type" [(ngModel)]="type">
-      <option value=0 selected="selected">Romaji</option>
-      <option value=1>Kana</option>
-      <option value=2>Hiragana</option>
-    </select>
+    <!-- FIELDSET FOR WRITING TYPE RADIOS-->
+    <fieldset class="form-group"  name="type" [(ngModel)]="type" ngDefaultControl>
+      <div class="typeRadio">
+
+        <div>
+          <input class="form-check-input" type="radio" name="type" id="typeRadio1" value=0>
+        </div>
+
+        <div>
+          <label class="text-emphasis form-check-label" for="typeRadio1">
+            Romaji
+          </label>
+        </div>
+
+      </div>
+
+      <div class="typeRadio">
+
+        <div>
+          <input class="form-check-input" type="radio" name="type" id="typeRadio2" value=1>
+        </div>
+
+        <div>
+          <label class="text-emphasis form-check-label" for="typeRadio2">
+            Kana
+          </label>
+        </div>
+
+      </div>
+      
+    </fieldset>
+
     <br>
     <br> 
     <h1>Game Length: </h1>
+    <!-- FIELDSET FOR WRITING TYPE RADIOS-->
     <div>
-      <select name="gameL" [(ngModel)]="gameL">
-        <option value=15>Short Game - 15 Questions</option>
-        <option value=40>Long Game - 40 Questions</option>
-      </select>
+      <fieldset class="form-group" name="gameL" [(ngModel)]="gameL" ngDefaultControl>
+        <div class="gameL-radio">
+
+          <div>
+            <input class="form-check-input" type="radio" name="gameL" id="gameL1" value=20>
+          </div>
+
+          <div>
+            <label class="text-emphasis form-check-label" for="gameL1">
+              Short Game - 20 Q's
+            </label>
+          </div>
+
+        </div>
+
+        <div class="gameL-radio">
+
+          <div>
+            <input class="form-check-input" type="radio" id="gameL2" name="gameL" value=40>
+          </div>
+
+          <div>
+            <label class="text-emphasis form-check-label" for="gameL2">
+              Long Game - 40 Q's
+            </label>
+          </div>
+
+        </div>
+      
+    </fieldset>
     </div>
 
   </div>
   <br> 
+
   <h1>Topics: </h1>
-  <div id="topics">
-    <select class="form-select mb-3" id="exampleSelect1" ngDefaultControl name="topic" [(ngModel)]="topic">
-      <option *ngFor="let t of topics" [value]="t">{{t}}</option>
+
+
+      <fieldset [(ngModel)]="topic"  ngDefaultControl>
+
+              <table>
+                <tr>
+
+                  <td>
+                    <div class="topicsBox">
+                      <div>
+                        <input class="form-check-input" type="checkbox" [(ngModel)]="cho.adjectives" id="{{cho.adjectives}}" name="{{cho.adjectives}}" value={{cho.adjectives}}>
+                      </div>
+                
+                      <div>
+                        <label class="text-emphasis form-check-label" for="{{cho.adjectives}}">
+                          Adjectives
+                        </label>
+                      </div>
+                    </div>
+                  </td>
+
+                  <td>
+                    <div class="topicsBox">
+                      <div>
+                        <input class="form-check-input" type="checkbox" [(ngModel)]="cho.animals" id="{{cho.animals}}" name="{{cho.animals}}" value={{cho.animals}}>
+                      </div>
+                  
+                      <div>
+                        <label class="text-emphasis form-check-label" for="{{cho.animals}}">
+                         Animals
+                        </label>
+                      </div>
+                    </div>
+                  </td>
+
+                </tr>
+                <tr>
+                
+                  <td>
+                    <div class="topicsBox">
+                      <div>
+                        <input class="form-check-input" type="checkbox" [(ngModel)]="cho.body" id="{{cho.body}}" value={{cho.body}}>
+                      </div>
+                
+                      <div>
+                        <label class="text-emphasis form-check-label" for="{{cho.body}}">
+                          Body Parts
+                        </label>
+                      </div>
+                    </div>
+                  </td>
+                
+                  <td>
+                    <div class="topicsBox">
+                      <div>
+                        <input class="form-check-input" type="checkbox" [(ngModel)]="cho.colours" id="{{cho.colours}}" value={{cho.colours}}>
+                      </div>
+                
+                      <div>
+                        <label class="text-emphasis form-check-label" for="{{cho.colours}}">
+                          Colours
+                        </label>
+                      </div>
+                    </div>
+                  </td>
+                
+                </tr><tr>
+                
+                  <td>
+                    <div class="topicsBox">
+                      <div>
+                        <input class="form-check-input" type="checkbox" [(ngModel)]="cho.time" id="{{cho.time}}" value={{cho.time}}>
+                      </div>
+                
+                      <div>
+                        <label class="text-emphasis form-check-label" for="{{cho.time}}">
+                          Time
+                        </label>
+                      </div>
+                    </div>
+                  </td>
+                
+                  <td>
+                    <div class="topicsBox">
+                      <div>
+                        <input class="form-check-input" type="checkbox" [(ngModel)]="cho.essential" id="{{cho.essential}}" value={{cho.essential}}>
+                      </div>
+                
+                      <div>
+                        <label class="text-emphasis form-check-label" for="{{cho.essential}}">
+                          Essential
+                        </label>
+                      </div>
+                    </div>
+                  </td>
+                
+                </tr><tr>
+                
+                  <td>
+                    <div class="topicsBox">
+                      <div>
+                        <input class="form-check-input" type="checkbox" [(ngModel)]="cho.people" id="{{cho.people}}" value={{cho.people}}>
+                      </div>
+                
+                      <div>
+                        <label class="text-emphasis form-check-label" for="{{cho.people}}">
+                          People
+                        </label>
+                      </div>
+                    </div>
+                  </td>
+                
+                  <td>
+                    <div class="topicsBox">
+                      <div>
+                        <input class="form-check-input" type="checkbox" [(ngModel)]="cho.refreshments" id="{{cho.refreshments}}" value={{cho.refreshments}}>
+                      </div>
+                
+                      <div>
+                        <label class="text-emphasis form-check-label" for="{{cho.refreshments}}">
+                          Refreshments
+                        </label>
+                      </div>
+                    </div>
+                  </td>
+                
+                </tr><tr>
+                
+                  <td>
+                    <div class="topicsBox">
+                      <div>
+                        <input class="form-check-input" type="checkbox" [(ngModel)]="cho.produce" id="{{cho.produce}}" value={{cho.produce}}>
+                      </div>
+                
+                      <div>
+                        <label class="text-emphasis form-check-label" for="{{cho.produce}}">
+                          Produce
+                        </label>
+                      </div>
+                    </div>
+                  </td>
+                
+                  <td>
+                    <div class="topicsBox">
+                      <div>
+                        <input class="form-check-input" type="checkbox" [(ngModel)]="cho.meals" id="{{cho.meals}}" value={{cho.meals}}>
+                      </div>
+                
+                      <div>
+                        <label class="text-emphasis form-check-label" for="{{cho.meals}}">
+                          Meals
+                        </label>
+                      </div>
+                    </div>
+                  </td>
+                
+                </tr><tr>
+                
+                  <td>
+                    <div class="topicsBox">
+                      <div>
+                        <input class="form-check-input" type="checkbox" [(ngModel)]="cho.general" id="{{cho.general}}" value={{cho.general}}>
+                      </div>
+                
+                      <div>
+                        <label class="text-emphasis form-check-label" for="{{cho.general}}">
+                          General
+                        </label>
+                      </div>
+                    </div>
+                  </td>
+                
+                  <td>
+                    <div class="topicsBox">
+                      <div>
+                        <input class="form-check-input" type="checkbox" [(ngModel)]="cho.greetings" id="{{cho.greetings}}" value={{cho.greetings}}>
+                      </div>
+                
+                      <div>
+                        <label class="text-emphasis form-check-label" for="{{cho.greetings}}">
+                          Greetings
+                        </label>
+                      </div>
+                    </div>
+                  </td>
+                
+                </tr><tr>
+                
+                  <td>
+                    <div class="topicsBox">
+                      <div>
+                        <input class="form-check-input" type="checkbox" [(ngModel)]="cho.numbers" id="{{cho.numbers}}" value={{cho.numbers}}>
+                      </div>
+                
+                      <div>
+                        <label class="text-emphasis form-check-label" for="{{cho.numbers}}">
+                          Numbers
+                        </label>
+                      </div>
+                    </div>
+                  </td>
+                
+                  <td>
+                    <div class="topicsBox">
+                      <div>
+                        <input class="form-check-input" type="checkbox" [(ngModel)]="cho.school" id="{{cho.school}}" value={{cho.school}}>
+                      </div>
+                
+                      <div>
+                        <label class="text-emphasis form-check-label" for="{{cho.school}}">
+                          School
+                        </label>
+                      </div>
+                    </div>
+                  </td>
+                
+                </tr><tr>
+                
+                  <td>
+                    <div class="topicsBox">
+                      <div>
+                        <input class="form-check-input" type="checkbox" [(ngModel)]="cho.verbs" id="{{cho.verbs}}" value={{cho.verbs}}>
+                      </div>
+                
+                      <div>
+                        <label class="text-emphasis form-check-label" for="{{cho.verbs}}">
+                          Verbs
+                        </label>
+                      </div>
+                    </div>
+                  </td>
+
+                  <td>
+                    <div class="topicsBox">
+                      <div>
+                        <input class="form-check-input" type="checkbox" [(ngModel)]="cho.climate" id="{{cho.climate}}" value={{cho.climate}}>
+                      </div>
+                  
+                      <div>
+                        <label class="text-emphasis form-check-label" for="{{cho.climate}}">
+                          Climate
+                        </label>
+                      </div>
+                    </div>
+                  </td>
+            
+                </tr>
+
+              </table>
+
+      </fieldset>
+   
       
-    </select>
-  </div>
   <!--Below click func will take on ID to determine correct game route
     e.g. if id = 1, then it will route to /game+id 
                                           /game1 = speech frenzy
